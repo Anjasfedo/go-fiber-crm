@@ -14,7 +14,7 @@ func setRoutes(app *fiber.App) {
 
 	app.Get("/api/v1/lead/:id",lead.GetLeadById)
 
-	app.Post("/api/v1/lead/",lead.CreateLeadById)
+	app.Post("/api/v1/lead/",lead.CreateLead)
 
 	app.Delete("/api/v1/lead/:id",lead.DeleteLeadById)
 }
