@@ -6,5 +6,5 @@ import (
 )
 
 var (
-	DBConn *gorm.DB
+	DBConn *gorm.DB // DBConn is a global variable holding the database connection.
 )
